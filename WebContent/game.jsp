@@ -72,36 +72,15 @@ HttpSession hSession = request.getSession(true);
 
 <div id="welcome">
   <h1 tabindex="0">
-    Pretend You're <dfn style="border-bottom: 1px dotted black"
-    title="Xyzzy is an Artificial Unintelligence bot. You'll be making more sense than him in this game.">
-    Xyzzy</dfn>
+    Cards Against Humanity!
   </h1>
-  <h3>A <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a> clone.</h3>
+  <h2>by Pathfinder</h2>
+  <h3>A <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a> clone -- code <a href="https://github.com/allquixotic/PretendYoureXyzzy">here</a>; Pathfinder website<a href="https://www.pf-enclave.org">here</a>.</h3>
   <p>
-    This webapp is still in development. There will be bugs, but hopefully they won't affect gameplay
-    very much. To assist with development, <strong>all traffic on this server <em>may</em> be
-    logged.</strong>
+    This is a private Cards Against Humanity server for use by Pathfinder enclave members and friends thereof. <strong>All traffic on this server <em>may</em> be
+    logged.</strong> If you have previously logged in and the Set button is grayed out, press Ctrl+F5.
   </p>
-  <p>
-    If this is your first time playing, you may wish to read <a href="/">the changelog and list of
-    known issues</a>.
-  </p>
-  <p tabindex="0">Most recent update: 3 May 2015:</p>
-  <ul>
-    <li>The game list automatically updates once per minute now, instead of several times per
-    second. You can still click the Refresh Games button in the top left corner at any time.</li>
-    <li>Chat flood protection has been made more strict.</li>
-    <li>Other back-end changes to attempt to get the AWS bill in control.</li>
-    <li><strong>All locally-stored custom card sets have been removed.</strong> You must use
-    Cardcast for custom card sets now.</li>
-    <li>The 5th and 6th Expansions, PAX Prime 2014 Panel, Ten Days or Whatever of Kwanzaa,
-    and Science packs have all been added.</li>
-    <li>Remaining known issues and high priority features:<ul>
-      <li>Leaving a game as a spectator doesn't work right.</li>
-      <li>Game owners still can't kick players from their game.</li>
-      <li>Actually saw a deadlock the other night, so that needs fixed.</li>
-    </ul></li>
-  </ul>
+  
   <div id="nickbox">
     Nickname:
     <input type="text" id="nickname" value="" maxlength="30" role="textbox"
