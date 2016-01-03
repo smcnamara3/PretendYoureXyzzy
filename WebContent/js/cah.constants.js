@@ -42,12 +42,12 @@ cah.$.GameOptionData = function() {
   // Dummy constructor to make Eclipse auto-complete.
 };
 cah.$.GameOptionData.prototype.dummyForAutocomplete = undefined;
+cah.$.GameOptionData.TIMER_MULTIPLIER = "tm";
 cah.$.GameOptionData.PASSWORD = "pw";
 cah.$.GameOptionData.SPECTATOR_LIMIT = "vL";
 cah.$.GameOptionData.SCORE_LIMIT = "sl";
 cah.$.GameOptionData.BLANKS_LIMIT = "bl";
 cah.$.GameOptionData.PLAYER_LIMIT = "pL";
-cah.$.GameOptionData.USE_TIMER = "ut";
 cah.$.GameOptionData.CARD_SETS = "css";
 
 cah.$.GameInfo = function() {
