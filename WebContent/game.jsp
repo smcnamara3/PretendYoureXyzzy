@@ -75,10 +75,10 @@ HttpSession hSession = request.getSession(true);
   <h1 tabindex="0">
     Cards Against Humanity!
   </h1>
-  <h2>by Pathfinder</h2>
-  <h3>A <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a> clone -- code <a href="https://github.com/allquixotic/PretendYoureXyzzy">here</a>; Pathfinder website<a href="https://www.pf-enclave.org">here</a>.</h3>
+  <h2>by Andy Janata and Sean McNamara</h2>
+  <h3>A <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a> clone -- code <a href="https://github.com/allquixotic/PretendYoureXyzzy">here</a>.</h3>
   <p>
-    This is a private Cards Against Humanity server for use by Pathfinder enclave members and friends thereof. <strong>All traffic on this server <em>may</em> be
+    This is a private Cards Against Humanity server for use by friends of Sean McNamara. <strong>All traffic on this server <em>may</em> be
     logged.</strong> If you have previously logged in and the Set button is grayed out, press Ctrl+F5.
   </p>
   
